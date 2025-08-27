@@ -118,7 +118,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "HCMC Open University",
-      logo: require("./assets/images/universityLogo.png"),
+      logo: process.env.PUBLIC_URL + "/assets/images/universityLogo.png",
       subHeader: "Bachelor of Information Technology",
       duration: "November 2024 - now",
       desc: "Currently participating in the School-level Student Scientific Research program 2025",
@@ -126,7 +126,7 @@ const educationInfo = {
     },
     {
       schoolName: "HCMC College of Industry and Trade",
-      logo: require("./assets/images/collegeLogo.png"),
+      logo: process.env.PUBLIC_URL + "/assets/images/collegeLogo.png",
       subHeader: "Associate Degree in Information Technology",
       duration: "September 2018 - September 2022",
       desc: "Participated in ACM ICPC 2020 and won 3rd prize at the 2020 Vietnam Student Olympiad in Informatics",
@@ -168,7 +168,7 @@ const workExperiences = {
     {
       role: "Junior Software Developer",
       company: "Pullable Limited",
-      companylogo: require("./assets/images/pullableLogo.png"),
+      companylogo: process.env.PUBLIC_URL + "/assets/images/pullableLogo.png",
       date: "Jan 2022 – Mar 2023",
       desc: "Contributed to backend, frontend, and cloud development for microservices-based applications.",
       descBullets: [
@@ -180,7 +180,7 @@ const workExperiences = {
     {
       role: "Software Developer Intern",
       company: "AdStart Media",
-      companylogo: require("./assets/images/adstartLogo.png"),
+      companylogo: process.env.PUBLIC_URL + "/assets/images/adstartLogo.png",
       date: "Mar 2021 – Dec 2021",
       desc: "Supported the development of landing pages and the company’s internal admin dashboard.",
       descBullets: [
@@ -207,7 +207,7 @@ const bigProjects = {
   subtitle: "END-TO-END APPLICATIONS I HAVE BUILT AND DEPLOYED",
   projects: [
     {
-      image: require("./assets/images/dashboard.png"),
+      image: process.env.PUBLIC_URL + "/assets/images/dashboard.png",
       projectName: "Product Management Dashboard",
       projectDesc: "Full-stack dashboard application. Deployed on Render.",
       footerLink: [
@@ -222,7 +222,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/portfolioLogo.png"),
+      image: process.env.PUBLIC_URL + "/assets/images/portfolioLogo.png",
       projectName: "Portfolio Website",
       projectDesc: "Personal developer portfolio. Deployed on Netlify.",
       footerLink: [
@@ -252,7 +252,7 @@ const achievementSection = {
     {
       title: "The ICPC International Collegiate Programming Contest",
       subtitle: "Honorable Mention at the 2020 ACM International Collegiate Programming Contest (ICPC).",
-      image: require("./assets/images/icpcLogo.png"),
+      image: process.env.PUBLIC_URL + "/assets/images/icpcLogo.png",
       imageAlt: "ICPC Logo",
       footerLink: [
         {
@@ -265,7 +265,7 @@ const achievementSection = {
       title: "Vietnam National Olympiad in Informatics",
       subtitle:
         "Third Prize at the 2020 Vietnam National Olympiad in Informatics (MOET).",
-      image: require("./assets/images/vnoiLogo.png"),
+      image: process.env.PUBLIC_URL + "/assets/images/vnoiLogo.png",
       imageAlt: "Vietnam National Olympiad in Informatics Logo",
       footerLink: [
         {
@@ -281,7 +281,7 @@ const achievementSection = {
     {
       title: "International English Language Testing System",
       subtitle: "Achieved an overall band score of 6.5 in the IELTS Academic Test.",
-      image: require("./assets/images/ieltsLogo.png"),
+      image: process.env.PUBLIC_URL + "/assets/images/ieltsLogo.png",
       imageAlt: "IELTS Logo",
       footerLink: [
         {

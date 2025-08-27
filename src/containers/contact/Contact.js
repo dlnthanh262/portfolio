@@ -58,7 +58,7 @@ export default function Contact() {
             ) : (
               <img
                 alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
+                src={process.env.PUBLIC_URL + "/assets/images/contactMailDark.svg"}
               ></img>
             )}
           </div>

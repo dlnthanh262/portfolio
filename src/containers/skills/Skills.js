@@ -22,7 +22,7 @@ export default function Skills() {
             ) : (
               <img
                 alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
+                src={process.env.PUBLIC_URL + "/assets/images/developerActivity.svg"}
               ></img>
             )}
           </div>

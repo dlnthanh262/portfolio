@@ -60,7 +60,7 @@ export default function Greeting() {
             ) : (
               <img
                 alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src={process.env.PUBLIC_URL + "/assets/images/manOnTable.svg"}
               ></img>
             )}
           </div>
