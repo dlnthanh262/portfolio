@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "dlnthanh262",
+      "name": "Do Le Nguyet Thanh",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36920441?v=4",
+      "profile": "https://www.linkedin.com/in/dlnthanh/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "portfolio",
+  "projectOwner": "dlnthanh262",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "angular"
+}
