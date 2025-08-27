@@ -228,7 +228,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/dlnthanh262/portfolio"
+          url: "https://dlnthanh262.github.io/portfolio"
         },
         {
           name: "Source Code",
