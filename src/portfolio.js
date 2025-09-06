@@ -286,7 +286,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "IELTS Certificate",
-          url: "https://drive.google.com/file/d/1BBvLLOHzxgcE27JpXXa5bWbCz2EdnO_n/view?usp=drive_link"
+          url: "https://drive.google.com/file/d/1_qCugBEzM2Ordiki0gXSxBkHZQFONA_3/view?usp=drive_link"
         }
       ]
     }
