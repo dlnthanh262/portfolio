@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Junior Fullstack Developer 🚀, coming back to tech after a career break. I enjoy building clean, responsive web apps with React, Spring Boot, and PostgreSQL."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1XdizKVAE2VZbnarCI0a5axuRXzqu0H1p/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -224,7 +224,7 @@ const bigProjects = {
     {
       image: process.env.PUBLIC_URL + "/assets/images/portfolioLogo.png",
       projectName: "Portfolio Website",
-      projectDesc: "Personal developer portfolio. Deployed on Netlify.",
+      projectDesc: "Personal developer portfolio. Deployed on Github.",
       footerLink: [
         {
           name: "Visit Website",
