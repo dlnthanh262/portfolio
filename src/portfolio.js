@@ -23,10 +23,10 @@ const greeting = {
   username: "Dln Thanh",
   title: "Hi all, I'm Thanh",
   subTitle: emoji(
-    "A passionate Junior Fullstack Developer 🚀, coming back to tech after a career break. I enjoy building clean, responsive web apps with React, Spring Boot, and PostgreSQL."
+    "A passionate Fullstack Developer 🚀, coming back to tech after a career break. I enjoy building clean, responsive web apps with React, Spring Boot, and PostgreSQL."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1bexxjhSVTNP2da4jDdczUrN1uBRYNiJf/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1-PtThY-894kHPQN4PGjE-GNvD7jojlZq/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
