@@ -23,7 +23,7 @@ const greeting = {
   username: "Dln Thanh",
   title: "Hi all, I'm Thanh",
   subTitle: emoji(
-    "A passionate Developer 🚀, coming back to tech after a career break. I enjoy building clean, responsive web apps with React, Spring Boot, and PostgreSQL."
+    "A passionate Developer 🚀, enjoying build clean, responsive web apps with React, Spring Boot, and PostgreSQL."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1Gl4iCy1KMrW9rv1bqdnY1zdG0DGnzmEM/view?usp=sharing", // Set to empty to hide the button
@@ -169,7 +169,7 @@ const workExperiences = {
       role: "Junior Software Developer",
       company: "Pullable Limited",
       companylogo: process.env.PUBLIC_URL + "/assets/images/pullableLogo.png",
-      date: "Jan 2022 – Mar 2023",
+      date: "Jan 2022 – Jun 2024",
       desc: "Contributed to backend, frontend, and cloud development for microservices-based applications.",
       descBullets: [
         "Java Spring Boot (Security, JPA, JUnit, Integration Tests), PostgreSQL",
