@@ -23,7 +23,7 @@ const greeting = {
   username: "Dln Thanh",
   title: "Hi all, I'm Thanh",
   subTitle: emoji(
-    "A passionate Developer 🚀, enjoying build clean, responsive web apps with React, Spring Boot, and PostgreSQL."
+    "A passionate Developer 🚀, enjoying build clean, responsive web apps from end-to-end using Java, Spring Framework, ReactJS, PostgreSQL, MySQL and AWS for server."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1Gl4iCy1KMrW9rv1bqdnY1zdG0DGnzmEM/view?usp=sharing", // Set to empty to hide the button
@@ -51,11 +51,11 @@ const skillsSection = {
   subTitle: "DEVELOPER WITH A PASSION FOR BUILDING WEB APPLICATIONS",
   skills: [
     emoji(
-      "⚡ Develop responsive and user-friendly web interfaces with ReactJS / Flutter / Figma"
+      "⚡ Develop responsive and user-friendly web interfaces with ReactJS / NextJS / Flutter / Figma"
     ),
-    emoji("⚡ Build secure backend APIs with Spring Boot (JWT, Spring Security) and write unit / integration tests"),
+    emoji("⚡ Build secure backend APIs with Spring Framework and write unit / integration tests"),
     emoji(
-      "⚡ Work with Postgres databases and deploy services using AWS (CloudFormation)"
+      "⚡ Work with PostgreSQL, MySQL and using AWS for server"
     )
   ],
 
@@ -120,7 +120,7 @@ const educationInfo = {
       schoolName: "HCMC Open University",
       logo: process.env.PUBLIC_URL + "/assets/images/universityLogo.png",
       subHeader: "Bachelor of Information Technology",
-      duration: "November 2024 - now",
+      duration: "November 2024 - present",
       desc: "Currently participating in the School-level Student Scientific Research program 2025",
       descBullets: []
     },
@@ -141,20 +141,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend – Intermediate",
-      progressPercentage: "60%"
+      Stack: "Frontend – Intermediate/Advanced",
+      progressPercentage: "70%"
     },
     {
       Stack: "Backend – Intermediate/Advanced",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming – Intermediate",
-      progressPercentage: "60%"
+      Stack: "Programming – Intermediate/Advanced",
+      progressPercentage: "70%"
     },
     {
-      Stack: "Cloud & Deployment – Beginner/Intermediate",
-      progressPercentage: "40%"
+      Stack: "Cloud & CI/CD – Beginner/Intermediate",
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -166,27 +166,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Junior Software Developer",
-      company: "Pullable Limited",
-      companylogo: process.env.PUBLIC_URL + "/assets/images/pullableLogo.png",
-      date: "Jan 2022 – Jun 2024",
-      desc: "Contributed to backend, frontend, and cloud development for microservices-based applications.",
+      role: "Freelance Software Developer",
+      company: "Fiverr Seller",
+      companylogo: process.env.PUBLIC_URL + "/assets/images/fiverrLogo.png",
+      date: "Jan 2022 – Present",
+      desc: "Built, cloned websites from end-to-end; Developed applications backend and frontend",
       descBullets: [
-        "Java Spring Boot (Security, JPA, JUnit, Integration Tests), PostgreSQL",
-        "Flutter, Figma, Photoshop",
-        "AWS (CloudFormation, S3, RDS, DynamoDB, Lambda, Cognito, etc.)"
+        "Java Spring, Unit & Integration Test, ReactJS, NextJS, Flutter",
+        "MySQL, PostgreSQL",
+        "AWS for server"
       ]
     },
     {
-      role: "Software Developer Intern",
+      role: "Front-End Developer Intern",
       company: "AdStart Media",
       companylogo: process.env.PUBLIC_URL + "/assets/images/adstartLogo.png",
       date: "Mar 2021 – Dec 2021",
-      desc: "Supported the development of landing pages and the company’s internal admin dashboard.",
+      desc: "Built pixel-perfect, responsive websites; Built controller-level RESTful APIs",
       descBullets: [
-        "HTML, CSS, JavaScript, jQuery, Flutter",
-        "Java Spring Boot (REST APIs)",
-        "Mentored new interns on code review and debugging"
+        "HTML, CSS, JavaScript, jQuery, Figma",
+        "Java Spring",
+        "Working under Scrum"
       ]
     }
   ]
